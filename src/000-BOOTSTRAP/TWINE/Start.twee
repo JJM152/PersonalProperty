@@ -1,0 +1,13 @@
+:: Start
+<div class='titleScreen'>\
+<div class='titleMenu'>\
+@@.titleButton;<<button "NEW GAME" "NewGame">><</button>>@@
+@@.titleButton;<<button "LOAD GAME">>\
+<<run UI.saves();>>\
+<</button>>@@
+@@.titleButton;<<button "SETTINGS">>\
+<<run UI.settings();>>\
+<</button>>@@
+@@.titleButton;<<button "CHANGE LOG" "ChangeLog">><</button>>@@
+<div>\
+</div>\

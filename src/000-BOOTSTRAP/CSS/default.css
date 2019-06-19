@@ -1,0 +1,41 @@
+/* Twine Globals */
+
+#passages {
+    max-width: 1024px;
+}
+
+button {
+	background-color: #252525;
+	border: none;
+}
+
+button:hover {
+	background-color: #414141;
+}
+
+/* title screen */
+
+div.titleScreen {
+    background-image:url(img/bg/title.png);
+    width:1024px;
+    height:768px;
+}
+
+div.titleMenu {
+    background-color:black;
+    border: solid 1px gold;
+    width:290px;
+    position:relative;
+    top:140px;
+    left:700px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+
+.titleButton button {
+    width: 280px;
+    height: 64px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
