@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"terminal.integrated.env.windows": {
+			"PATH" : "C:\\TWEEGO;C:\\Program Files\\nodejs\\;",
+			"TWEEGO_PATH" : "C:\\TWEEGO\\STORY_FORMATS"
+		}
+	}
+}
