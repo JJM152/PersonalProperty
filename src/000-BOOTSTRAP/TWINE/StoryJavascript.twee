@@ -2,4 +2,4 @@
 
 console.log("Configuring Game...");
 
-UIBar.destroy(); // Remove UI BAR.
+UIBar.destroy(); // Destroy UI BAR.
