@@ -1,5 +1,4 @@
 ::StoryJavaScript [script]
 
 console.log("Configuring Game...");
-
 UIBar.destroy(); // Destroy UI BAR.

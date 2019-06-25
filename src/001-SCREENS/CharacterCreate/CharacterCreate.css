@@ -1,0 +1,10 @@
+div.CharacterCreateContainer {
+    width: 1024px;
+    height: 768px;
+    background-color: lightslategray;
+}
+
+div.CharacterCreateAttrib {
+    margin-right: 5px;
+    display: inline-block; 
+}

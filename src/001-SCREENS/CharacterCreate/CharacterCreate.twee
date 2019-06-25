@@ -1,0 +1,15 @@
+::CharacterCreate
+<<if typeof setup.Pages === 'undefined'>>\
+<<run setup.Pages = { }>>\
+<</if>>\
+<<if setup.Pages.CharacterCreate == null || typeof setup.Pages.CharacterCreate === 'undefined'>>\
+<<run setup.Pages.CharacterCreate = new App.Pages.CharacterCreate();>>\
+<</if>>\
+<div class="CharacterCreateContainer">\
+</div>
+
+::CharacterCreateWidgets [widget]
+<<widget "createStatSlider">>\
+<<set _id = setup.Pages.CharacterCreate.AddStatSlider($args[0], $args[1], $args[2]);>>\
+<<print "<div id='"+ _id +"' class='CharacterCreateAttrib'></div>"; >>\
+<</widget>>
